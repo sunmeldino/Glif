@@ -6,7 +6,7 @@ const axios = require('axios');
 // Handler function for the serverless function
 module.exports = async (req, res) => {
     try {
-        const glifApiKey = 'your_glif_api_key_here';
+        const glifApiKey = '30cb9f1c1f261a9296be09b31e38520e';
         const glifEndpoint = 'https://api.glif.io/v1/image/generate';
 
         // Make a POST request to Glif API
